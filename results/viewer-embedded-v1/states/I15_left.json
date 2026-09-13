@@ -1,0 +1,135 @@
+{
+  "format_version": 2,
+  "initial_observation": {
+    "width": 800,
+    "height": 600,
+    "background": "#FFFFFF",
+    "task": {
+      "headline": "New Season",
+      "cta": "Discover",
+      "cta_color": "#FFFF00",
+      "alignment": "center",
+      "min_contrast": 4.5
+    },
+    "elements": [
+      {
+        "type": "text",
+        "role": "headline",
+        "x": 100,
+        "y": 79,
+        "width": 600,
+        "height": 90,
+        "z_index": 0,
+        "color": null,
+        "text_color": "#172033",
+        "content": "New Season",
+        "font_size": 44,
+        "id": "e1",
+        "creation_index": 1
+      },
+      {
+        "type": "image",
+        "role": "decoration",
+        "x": 120,
+        "y": 225,
+        "width": 560,
+        "height": 150,
+        "z_index": 0,
+        "color": "#172033",
+        "text_color": "#172033",
+        "content": "Product placeholder",
+        "font_size": 28,
+        "id": "e2",
+        "creation_index": 2
+      },
+      {
+        "type": "shape",
+        "role": "cta",
+        "x": 264,
+        "y": 459,
+        "width": 272,
+        "height": 72,
+        "z_index": 0,
+        "color": "#FFFF00",
+        "text_color": "#172033",
+        "content": "Discover",
+        "font_size": 28,
+        "id": "e3",
+        "creation_index": 3
+      }
+    ],
+    "next_id": 4,
+    "steps": 0,
+    "max_steps": 40,
+    "max_elements": 24,
+    "terminated": false,
+    "seed": 32,
+    "prompt": "Create a banner with exactly one headline \"New Season\" and one CTA button labeled \"Discover\", filled #FFFF00. Use center alignment, place the CTA at least 16px below the headline, and keep text contrast at least 4.5:1. Required text must be at least 16px, fully fit its box with padding, and remain visible.",
+    "remaining_steps": 40,
+    "relationships": [
+      {
+        "subject": "e1",
+        "object": "e2",
+        "relations": [
+          "above"
+        ]
+      },
+      {
+        "subject": "e1",
+        "object": "e3",
+        "relations": [
+          "above"
+        ]
+      },
+      {
+        "subject": "e2",
+        "object": "e3",
+        "relations": [
+          "above"
+        ]
+      }
+    ]
+  },
+  "setup_actions": [
+    {
+      "op": "add_element",
+      "element": {
+        "type": "text",
+        "role": "headline",
+        "content": "New Season",
+        "x": 100,
+        "y": 79,
+        "width": 600,
+        "height": 90,
+        "font_size": 44
+      }
+    },
+    {
+      "op": "add_element",
+      "element": {
+        "type": "image",
+        "color": "#172033",
+        "content": "Product placeholder",
+        "x": 120,
+        "y": 225,
+        "width": 560,
+        "height": 150
+      }
+    },
+    {
+      "op": "add_element",
+      "element": {
+        "type": "shape",
+        "role": "cta",
+        "content": "Discover",
+        "color": "#FFFF00",
+        "x": 264,
+        "y": 459,
+        "width": 272,
+        "height": 72,
+        "font_size": 28
+      }
+    }
+  ],
+  "transitions": []
+}

@@ -1,0 +1,100 @@
+{
+  "study_id": "viewer-pilot-v1",
+  "pairs": [
+    {
+      "id": "P01",
+      "left": "stimuli/P01_left.png",
+      "headline": "Weekend Offers",
+      "cta": "View offers",
+      "right": "stimuli/P01_right.png"
+    },
+    {
+      "id": "P02",
+      "left": "stimuli/P02_left.png",
+      "headline": "Weekend Offers",
+      "cta": "View offers",
+      "right": "stimuli/P02_right.png"
+    },
+    {
+      "id": "P03",
+      "left": "stimuli/P03_left.png",
+      "headline": "Fresh Arrivals",
+      "cta": "Explore",
+      "right": "stimuli/P03_right.png"
+    },
+    {
+      "id": "P04",
+      "left": "stimuli/P04_left.png",
+      "headline": "Summer Sale",
+      "cta": "Shop now",
+      "right": "stimuli/P04_right.png"
+    },
+    {
+      "id": "P05",
+      "left": "stimuli/P05_left.png",
+      "headline": "Fresh Arrivals",
+      "cta": "Explore",
+      "right": "stimuli/P05_right.png"
+    },
+    {
+      "id": "P06",
+      "left": "stimuli/P06_left.png",
+      "headline": "Summer Sale",
+      "cta": "Shop now",
+      "right": "stimuli/P06_right.png"
+    },
+    {
+      "id": "P07",
+      "left": "stimuli/P07_left.png",
+      "headline": "Fresh Arrivals",
+      "cta": "Explore",
+      "right": "stimuli/P07_right.png"
+    },
+    {
+      "id": "P08",
+      "left": "stimuli/P08_left.png",
+      "headline": "Fresh Arrivals",
+      "cta": "Explore",
+      "right": "stimuli/P08_right.png"
+    },
+    {
+      "id": "P09",
+      "left": "stimuli/P09_left.png",
+      "headline": "Weekend Offers",
+      "cta": "View offers",
+      "right": "stimuli/P09_right.png"
+    },
+    {
+      "id": "P10",
+      "left": "stimuli/P10_left.png",
+      "headline": "Summer Sale",
+      "cta": "Shop now",
+      "right": "stimuli/P10_right.png"
+    },
+    {
+      "id": "P11",
+      "left": "stimuli/P11_left.png",
+      "headline": "Summer Sale",
+      "cta": "Shop now",
+      "right": "stimuli/P11_right.png"
+    },
+    {
+      "id": "P12",
+      "left": "stimuli/P12_left.png",
+      "headline": "Weekend Offers",
+      "cta": "View offers",
+      "right": "stimuli/P12_right.png"
+    }
+  ],
+  "reviewer_count": 1,
+  "questions": [
+    "discoverability",
+    "preference"
+  ],
+  "answers": [
+    "left",
+    "right",
+    "tie",
+    "unsure"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "seeds": 12,
+  "case_count": 11,
+  "contract_checks": 120,
+  "passed": 120,
+  "weak_baseline_detected_defect_families": 1,
+  "defect_families": 8,
+  "timings": {
+    "observe": {
+      "median_ms": 0.005645531928166747,
+      "p95_ms": 0.006040965672582388,
+      "samples": 30
+    },
+    "json_serialization": {
+      "median_ms": 0.01066701952368021,
+      "p95_ms": 0.0112500274553895,
+      "samples": 30
+    },
+    "render": {
+      "median_ms": 0.6731875182595104,
+      "p95_ms": 0.741666997782886,
+      "samples": 30
+    },
+    "evaluate_uncached": {
+      "median_ms": 3.1850624945946038,
+      "p95_ms": 3.3094999962486327,
+      "samples": 30
+    }
+  },
+  "python": "3.12.14",
+  "platform": "Darwin",
+  "architecture": "arm64",
+  "dependencies": {
+    "pillow": "12.3.0",
+    "numpy": "2.5.3",
+    "pydantic": "2.13.5",
+    "mcp": "1.30.0",
+    "gymnasium": "1.3.0"
+  },
+  "source_sha256": {
+    "__init__.py": "88dd6ff6d36b3f82125d5a5e24f78c595dbd1a340ae6b18f0f5289c6fc316d92",
+    "env.py": "eb2043b99429f24c1af00efbf62a21543a179816a82eca9e483129c16af1f467",
+    "gym_adapter.py": "ee4a7269ddf3024fec7f4abe6d19c21ed3a0e87094e0eeee1c91adbdfec67d41",
+    "models.py": "07cb08dc33579eb136655b7934042d7c86909ae8c7db7917d9941faa0f10e607",
+    "rendering.py": "0fad1bbb0f808b0bd850aea6bf803eaabad21a491a8069a0ddb5de54e04d5b28",
+    "reward_variants.py": "d395a2982826cbf4e129b4221a4bee75542aca826d7c55250fe6a3f6a200d6af",
+    "rewards.py": "86ba32851ac018d0ec964e5a96fb242763b63f9a326ab057ee3b81d2498092e7",
+    "scenarios.py": "61248d10070e3e54e166c01e1c0016437250d453aa32bab9e6cbd591e8f3bf0a",
+    "server.py": "942d6f25403192fc320c30f2c64c7500da23febd18fe3a041ef59773768b193f"
+  }
+}

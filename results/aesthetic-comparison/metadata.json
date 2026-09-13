@@ -1,0 +1,37 @@
+{
+  "experiment": "headline_hierarchy_ablation_v1",
+  "variants": [
+    "capped_v1",
+    "hierarchy_v1"
+  ],
+  "style_weight": 0.15,
+  "target_ratio": 1.5,
+  "seed_count": 12,
+  "paired_scenes": 72,
+  "parameter_combinations": 9,
+  "sensitivity_rows": 648,
+  "brief_assumption": "Explore headline-led marketing layouts; this is not an additional task-success requirement.",
+  "action_mode": "semantic",
+  "observation_mode": "semantic_json",
+  "policy": "scripted; no LLM",
+  "human_ratings_collected": 0,
+  "python": "3.12.14",
+  "dependencies": {
+    "pillow": "12.3.0",
+    "numpy": "2.5.3",
+    "pydantic": "2.13.5"
+  },
+  "source_sha256": {
+    "marketcanvas/__init__.py": "88dd6ff6d36b3f82125d5a5e24f78c595dbd1a340ae6b18f0f5289c6fc316d92",
+    "marketcanvas/env.py": "eb2043b99429f24c1af00efbf62a21543a179816a82eca9e483129c16af1f467",
+    "marketcanvas/gym_adapter.py": "ee4a7269ddf3024fec7f4abe6d19c21ed3a0e87094e0eeee1c91adbdfec67d41",
+    "marketcanvas/models.py": "07cb08dc33579eb136655b7934042d7c86909ae8c7db7917d9941faa0f10e607",
+    "marketcanvas/rendering.py": "0fad1bbb0f808b0bd850aea6bf803eaabad21a491a8069a0ddb5de54e04d5b28",
+    "marketcanvas/reward_variants.py": "d395a2982826cbf4e129b4221a4bee75542aca826d7c55250fe6a3f6a200d6af",
+    "marketcanvas/rewards.py": "86ba32851ac018d0ec964e5a96fb242763b63f9a326ab057ee3b81d2498092e7",
+    "marketcanvas/scenarios.py": "61248d10070e3e54e166c01e1c0016437250d453aa32bab9e6cbd591e8f3bf0a",
+    "marketcanvas/server.py": "942d6f25403192fc320c30f2c64c7500da23febd18fe3a041ef59773768b193f",
+    "aesthetic_comparison.py": "cd018129754dd1079a108c1e8669c78dceba4ce81044869926b7ac829e840e8f",
+    "reward_comparison.py": "f81f24612d2f2b99c6cacbf4fb807881a944b7711022e36e49d2af33ccf5a6ab"
+  }
+}

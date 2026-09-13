@@ -1,0 +1,74 @@
+{
+  "I01": {
+    "primary_id": "I01",
+    "kind": "primary"
+  },
+  "I02": {
+    "primary_id": "I02",
+    "kind": "primary"
+  },
+  "I03": {
+    "primary_id": "I03",
+    "kind": "primary"
+  },
+  "I04": {
+    "primary_id": "I04",
+    "kind": "primary"
+  },
+  "I05": {
+    "primary_id": "I05",
+    "kind": "primary"
+  },
+  "I06": {
+    "primary_id": "I06",
+    "kind": "primary"
+  },
+  "I07": {
+    "primary_id": "I07",
+    "kind": "primary"
+  },
+  "I08": {
+    "primary_id": "I02",
+    "kind": "same"
+  },
+  "I09": {
+    "primary_id": "I09",
+    "kind": "primary"
+  },
+  "I10": {
+    "primary_id": "I01",
+    "kind": "reversed"
+  },
+  "I11": {
+    "primary_id": "I11",
+    "kind": "primary"
+  },
+  "I12": {
+    "primary_id": "I06",
+    "kind": "reversed"
+  },
+  "I13": {
+    "primary_id": "I13",
+    "kind": "primary"
+  },
+  "I14": {
+    "primary_id": "I03",
+    "kind": "reversed"
+  },
+  "I15": {
+    "primary_id": "I15",
+    "kind": "primary"
+  },
+  "I16": {
+    "primary_id": "I04",
+    "kind": "same"
+  },
+  "I17": {
+    "primary_id": "I17",
+    "kind": "primary"
+  },
+  "I18": {
+    "primary_id": "I05",
+    "kind": "same"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "study_id": "viewer-embedded-v1",
+  "pairs": [
+    {
+      "id": "I01",
+      "left": "stimuli/I01_left.png",
+      "headline": "Member Offers",
+      "cta": "See offers",
+      "right": "stimuli/I01_right.png"
+    },
+    {
+      "id": "I02",
+      "left": "stimuli/I02_left.png",
+      "headline": "New Season",
+      "cta": "Discover",
+      "right": "stimuli/I02_right.png"
+    },
+    {
+      "id": "I03",
+      "left": "stimuli/I03_left.png",
+      "headline": "New Season",
+      "cta": "Discover",
+      "right": "stimuli/I03_right.png"
+    },
+    {
+      "id": "I04",
+      "left": "stimuli/I04_left.png",
+      "headline": "Member Offers",
+      "cta": "See offers",
+      "right": "stimuli/I04_right.png"
+    },
+    {
+      "id": "I05",
+      "left": "stimuli/I05_left.png",
+      "headline": "Autumn Edit",
+      "cta": "Browse now",
+      "right": "stimuli/I05_right.png"
+    },
+    {
+      "id": "I06",
+      "left": "stimuli/I06_left.png",
+      "headline": "Autumn Edit",
+      "cta": "Browse now",
+      "right": "stimuli/I06_right.png"
+    },
+    {
+      "id": "I07",
+      "left": "stimuli/I07_left.png",
+      "headline": "Autumn Edit",
+      "cta": "Browse now",
+      "right": "stimuli/I07_right.png"
+    },
+    {
+      "id": "I08",
+      "left": "stimuli/I08_left.png",
+      "headline": "New Season",
+      "cta": "Discover",
+      "right": "stimuli/I08_right.png"
+    },
+    {
+      "id": "I09",
+      "left": "stimuli/I09_left.png",
+      "headline": "Member Offers",
+      "cta": "See offers",
+      "right": "stimuli/I09_right.png"
+    },
+    {
+      "id": "I10",
+      "left": "stimuli/I10_left.png",
+      "headline": "Member Offers",
+      "cta": "See offers",
+      "right": "stimuli/I10_right.png"
+    },
+    {
+      "id": "I11",
+      "left": "stimuli/I11_left.png",
+      "headline": "New Season",
+      "cta": "Discover",
+      "right": "stimuli/I11_right.png"
+    },
+    {
+      "id": "I12",
+      "left": "stimuli/I12_left.png",
+      "headline": "Autumn Edit",
+      "cta": "Browse now",
+      "right": "stimuli/I12_right.png"
+    },
+    {
+      "id": "I13",
+      "left": "stimuli/I13_left.png",
+      "headline": "Member Offers",
+      "cta": "See offers",
+      "right": "stimuli/I13_right.png"
+    },
+    {
+      "id": "I14",
+      "left": "stimuli/I14_left.png",
+      "headline": "New Season",
+      "cta": "Discover",
+      "right": "stimuli/I14_right.png"
+    },
+    {
+      "id": "I15",
+      "left": "stimuli/I15_left.png",
+      "headline": "New Season",
+      "cta": "Discover",
+      "right": "stimuli/I15_right.png"
+    },
+    {
+      "id": "I16",
+      "left": "stimuli/I16_left.png",
+      "headline": "Member Offers",
+      "cta": "See offers",
+      "right": "stimuli/I16_right.png"
+    },
+    {
+      "id": "I17",
+      "left": "stimuli/I17_left.png",
+      "headline": "Autumn Edit",
+      "cta": "Browse now",
+      "right": "stimuli/I17_right.png"
+    },
+    {
+      "id": "I18",
+      "left": "stimuli/I18_left.png",
+      "headline": "Autumn Edit",
+      "cta": "Browse now",
+      "right": "stimuli/I18_right.png"
+    }
+  ],
+  "reviewer_count": 1,
+  "questions": [
+    "discoverability",
+    "preference"
+  ],
+  "answers": [
+    "left",
+    "right",
+    "tie",
+    "unsure"
+  ]
+}

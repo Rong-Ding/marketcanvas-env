@@ -1,0 +1,79 @@
+{
+  "study_id": "viewer-embedded-v1",
+  "freeze_hash": "a02df819ae66fab05a35047f7869372eee11810df26a89beddb1523e952ded14",
+  "completed_at": "2026-09-12T22:38:52.671778+00:00",
+  "ratings": {
+    "I01": {
+      "discoverability": "left",
+      "preference": "left"
+    },
+    "I02": {
+      "discoverability": "right",
+      "preference": "right"
+    },
+    "I03": {
+      "discoverability": "left",
+      "preference": "right"
+    },
+    "I04": {
+      "discoverability": "tie",
+      "preference": "left"
+    },
+    "I05": {
+      "discoverability": "left",
+      "preference": "right"
+    },
+    "I06": {
+      "discoverability": "right",
+      "preference": "right"
+    },
+    "I07": {
+      "discoverability": "tie",
+      "preference": "left"
+    },
+    "I08": {
+      "discoverability": "right",
+      "preference": "left"
+    },
+    "I09": {
+      "discoverability": "right",
+      "preference": "tie"
+    },
+    "I10": {
+      "discoverability": "left",
+      "preference": "right"
+    },
+    "I11": {
+      "discoverability": "tie",
+      "preference": "left"
+    },
+    "I12": {
+      "discoverability": "right",
+      "preference": "right"
+    },
+    "I13": {
+      "discoverability": "tie",
+      "preference": "right"
+    },
+    "I14": {
+      "discoverability": "right",
+      "preference": "tie"
+    },
+    "I15": {
+      "discoverability": "left",
+      "preference": "tie"
+    },
+    "I16": {
+      "discoverability": "tie",
+      "preference": "left"
+    },
+    "I17": {
+      "discoverability": "right",
+      "preference": "tie"
+    },
+    "I18": {
+      "discoverability": "left",
+      "preference": "right"
+    }
+  }
+}

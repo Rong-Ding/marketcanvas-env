@@ -1,0 +1,82 @@
+{
+  "experiment": "validity_cap_ablation_v1",
+  "variants": [
+    "capped_v1",
+    "uncapped_v1"
+  ],
+  "weights": {
+    "constraints": 0.45,
+    "visibility": 0.2,
+    "contrast": 0.2,
+    "layout": 0.15
+  },
+  "task": {
+    "headline": "Summer Sale",
+    "cta": "Shop now",
+    "cta_color": "#FFFF00",
+    "alignment": "center",
+    "min_contrast": 4.5
+  },
+  "fixture_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "fixture_count": 132,
+  "contrast_samples": 256,
+  "below_threshold_samples": 142,
+  "strictly_improving_adjacent_pairs": {
+    "capped_v1": 0,
+    "uncapped_v1": 141
+  },
+  "below_threshold_adjacent_pairs": 141,
+  "essential_failure_fixtures": 84,
+  "positive_scores_on_essential_failures": {
+    "capped_v1": 0,
+    "uncapped_v1": 72
+  },
+  "counterexample": {
+    "case": "nonoverlapping_duplicate_cta",
+    "capped_v1": -0.02,
+    "uncapped_v1": 1.0,
+    "success": false,
+    "essential_constraints_pass": false,
+    "constraints": 1.0,
+    "visibility": 1.0,
+    "contrast": 1.0,
+    "layout": 1.0
+  },
+  "action_mode": "semantic",
+  "observation_mode": "semantic_json",
+  "policy": "scripted; no LLM or optimizer",
+  "max_edit_steps": 40,
+  "live_reward": "capped_v1 terminal only",
+  "python": "3.12.14",
+  "dependencies": {
+    "pillow": "12.3.0",
+    "numpy": "2.5.3",
+    "pydantic": "2.13.5"
+  },
+  "source_sha256": {
+    "marketcanvas/__init__.py": "88dd6ff6d36b3f82125d5a5e24f78c595dbd1a340ae6b18f0f5289c6fc316d92",
+    "marketcanvas/env.py": "eb2043b99429f24c1af00efbf62a21543a179816a82eca9e483129c16af1f467",
+    "marketcanvas/gym_adapter.py": "ee4a7269ddf3024fec7f4abe6d19c21ed3a0e87094e0eeee1c91adbdfec67d41",
+    "marketcanvas/models.py": "07cb08dc33579eb136655b7934042d7c86909ae8c7db7917d9941faa0f10e607",
+    "marketcanvas/rendering.py": "0fad1bbb0f808b0bd850aea6bf803eaabad21a491a8069a0ddb5de54e04d5b28",
+    "marketcanvas/reward_variants.py": "d395a2982826cbf4e129b4221a4bee75542aca826d7c55250fe6a3f6a200d6af",
+    "marketcanvas/rewards.py": "86ba32851ac018d0ec964e5a96fb242763b63f9a326ab057ee3b81d2498092e7",
+    "marketcanvas/scenarios.py": "61248d10070e3e54e166c01e1c0016437250d453aa32bab9e6cbd591e8f3bf0a",
+    "marketcanvas/server.py": "942d6f25403192fc320c30f2c64c7500da23febd18fe3a041ef59773768b193f",
+    "reward_comparison.py": "f81f24612d2f2b99c6cacbf4fb807881a944b7711022e36e49d2af33ccf5a6ab",
+    "tests/test_reward_variants.py": "9fb7a245951142b78be96accf1f87ce6be260c62b39fcae1b6eea96862b9f5e7"
+  }
+}

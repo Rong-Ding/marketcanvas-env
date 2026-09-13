@@ -1,0 +1,33 @@
+{
+  "score": 1.0,
+  "components": {
+    "constraints": 1.0,
+    "visibility": 1.0,
+    "contrast": 1.0,
+    "layout": 1.0
+  },
+  "elements": {
+    "headline": {
+      "element_id": "e1",
+      "fits": true,
+      "contrast": 16.268480224545662,
+      "font_size": 42,
+      "visible_fraction": 1.0,
+      "readable_geometry": true,
+      "contrast_pass": true
+    },
+    "cta": {
+      "element_id": "e3",
+      "fits": true,
+      "contrast": 15.149828536724524,
+      "font_size": 28,
+      "visible_fraction": 1.0,
+      "readable_geometry": true,
+      "contrast_pass": true
+    }
+  },
+  "success": true,
+  "essential_constraints_pass": true,
+  "issues": [],
+  "presence_baseline": 1.0
+}

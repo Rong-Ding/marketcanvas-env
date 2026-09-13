@@ -1,0 +1,55 @@
+{
+  "study_id": "viewer-pilot-v1",
+  "freeze_hash": "87b55d52ee4f60f4b63d623ea6431476d3138738ace306bb935620ea37dac096",
+  "completed_at": "2026-09-12T22:13:42.371297+00:00",
+  "ratings": {
+    "P01": {
+      "discoverability": "left",
+      "preference": "right"
+    },
+    "P02": {
+      "discoverability": "left",
+      "preference": "right"
+    },
+    "P03": {
+      "discoverability": "left",
+      "preference": "right"
+    },
+    "P04": {
+      "discoverability": "left",
+      "preference": "left"
+    },
+    "P05": {
+      "discoverability": "right",
+      "preference": "right"
+    },
+    "P06": {
+      "discoverability": "left",
+      "preference": "left"
+    },
+    "P07": {
+      "discoverability": "left",
+      "preference": "left"
+    },
+    "P08": {
+      "discoverability": "left",
+      "preference": "left"
+    },
+    "P09": {
+      "discoverability": "left",
+      "preference": "left"
+    },
+    "P10": {
+      "discoverability": "left",
+      "preference": "left"
+    },
+    "P11": {
+      "discoverability": "left",
+      "preference": "left"
+    },
+    "P12": {
+      "discoverability": "left",
+      "preference": "right"
+    }
+  }
+}

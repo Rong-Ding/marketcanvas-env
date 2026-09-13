@@ -1,0 +1,7 @@
+# Preserve rendered artifacts and frozen study fingerprints byte for byte.
+*.pdf binary
+*.png binary
+*.ttf binary
+results/** -text
+*.csv whitespace=cr-at-eol
+**/LICENSE-DejaVu.txt whitespace=-blank-at-eol
